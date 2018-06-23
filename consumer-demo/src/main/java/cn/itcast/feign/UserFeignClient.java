@@ -12,4 +12,5 @@ import org.springframework.web.bind.annotation.PathVariable;
 public interface UserFeignClient {
     @GetMapping("user/user/{id}")
     User queryById(@PathVariable("id")Long id);
+    String a = "";
 }
